@@ -5,6 +5,7 @@ export const mockChatList = [
     lastSenderUsername: 'Alex',
     lastSenderMessage: 'Митинг перенесли на завтра в 10:00',
     lastSenderMessageTime: '09:45',
+    newMessagesCount: 3,
   },
   {
     avatarUrl: 'https://i.pravatar.cc/150?img=2',
@@ -19,6 +20,7 @@ export const mockChatList = [
     lastSenderUsername: 'Dmitry',
     lastSenderMessage: 'API готово, можно интегрировать',
     lastSenderMessageTime: '14:22',
+    newMessagesCount: 1,
   },
   {
     avatarUrl: 'https://i.pravatar.cc/150?img=4',
@@ -26,6 +28,7 @@ export const mockChatList = [
     lastSenderUsername: 'Elena',
     lastSenderMessage: 'Нужно одобрить текст рассылки',
     lastSenderMessageTime: '13:10',
+    newMessagesCount: 5,
   },
   {
     avatarUrl: 'https://i.pravatar.cc/150?img=5',
@@ -40,6 +43,7 @@ export const mockChatList = [
     lastSenderUsername: 'Ivan',
     lastSenderMessage: 'Дедлайн сдвинули на 15 июня',
     lastSenderMessageTime: 'Вчера',
+    newMessagesCount: 2,
   },
   {
     avatarUrl: 'https://i.pravatar.cc/150?img=7',
@@ -54,6 +58,7 @@ export const mockChatList = [
     lastSenderUsername: 'Sofia',
     lastSenderMessage: 'Кто хочет ревью PR с новым хуком?',
     lastSenderMessageTime: '09:15',
+    newMessagesCount: 7,
   },
   {
     avatarUrl: 'https://i.pravatar.cc/150?img=9',
@@ -75,6 +80,7 @@ export const mockChatList = [
     lastSenderUsername: 'Client',
     lastSenderMessage: 'Отличная работа! Готовы к следующему этапу',
     lastSenderMessageTime: '16:40',
+    newMessagesCount: 1,
   },
   {
     avatarUrl: 'https://i.pravatar.cc/150?img=12',
@@ -89,6 +95,7 @@ export const mockChatList = [
     lastSenderUsername: 'Anna',
     lastSenderMessage: 'Обязательно обновите 2FA до пятницы',
     lastSenderMessageTime: '12:30',
+    newMessagesCount: 4,
   },
   {
     avatarUrl: 'https://i.pravatar.cc/150?img=14',
@@ -103,5 +110,6 @@ export const mockChatList = [
     lastSenderUsername: 'Maria',
     lastSenderMessage: 'Сегодня обсуждаем Zustand vs Redux',
     lastSenderMessageTime: '10:10',
+    newMessagesCount: 2,
   },
 ];

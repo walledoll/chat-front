@@ -9,6 +9,7 @@ interface ChatItemProps{
     lastSenderUsername: string;
     lastSenderMessage: string;
     lastSenderMessageTime: string;
+    newMessagesCount?: string | number;
 }
 
 export default function ChatItem({
@@ -16,7 +17,8 @@ export default function ChatItem({
     name,
     lastSenderMessage,
     lastSenderMessageTime,
-    lastSenderUsername
+    lastSenderUsername,
+    newMessagesCount
 }: ChatItemProps) {
   return (
     <div className='flex m-3 p-3 border rounded-2xl items-center gap-3'>
@@ -29,7 +31,12 @@ export default function ChatItem({
                 <h1 className='font-bold'>{name}</h1>
                 <span className='text-[14px]'>{lastSenderMessageTime}</span>
             </div>
-            <h2 className='text-[14px]'>{lastSenderUsername}: {lastSenderMessage}</h2>
+            <div className='flex justify-between items-end'>
+                <h2 className='text-[14px]'>{lastSenderUsername}: {lastSenderMessage}</h2>
+                {newMessagesCount && 
+                    <span className='bg-rose-700 text-[12px] w-7 text-center text-white p-1 rounded-lg'>{newMessagesCount}</span> 
+                }
+            </div>
         </div>
     </div>
   )

@@ -5,9 +5,13 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="w-full min-h-screen">
-      <ChatHeader/>
-      <ChatList/>
+    <div className="w-full h-screen flex flex-col">
+      <div className="shrink-0">
+        <ChatHeader />
+      </div>
+      <div className="overflow-y-auto thin-scrollbar">
+        <ChatList />
+      </div>
     </div>
   );
 }
