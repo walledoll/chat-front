@@ -4,7 +4,7 @@ export const mockChatList = [
     name: 'Team Alpha',
     lastSenderUsername: 'Alex',
     lastSenderMessage: 'Митинг перенесли на завтра в 10:00',
-    lastSenderMessageTime: '09:45',
+    lastSenderMessageTime: '2024-05-15T09:45:00',
     newMessagesCount: 3,
   },
   {
@@ -12,14 +12,14 @@ export const mockChatList = [
     name: 'Design Review',
     lastSenderUsername: 'Mia',
     lastSenderMessage: 'Скинула обновлённый макет в Figma',
-    lastSenderMessageTime: 'Вчера',
+    lastSenderMessageTime: '2024-05-14T18:30:00', // вчера вечером
   },
   {
     avatarUrl: 'https://i.pravatar.cc/150?img=3',
     name: 'Backend Devs',
     lastSenderUsername: 'Dmitry',
     lastSenderMessage: 'API готово, можно интегрировать',
-    lastSenderMessageTime: '14:22',
+    lastSenderMessageTime: '2025-09-28T14:22:00',
     newMessagesCount: 1,
   },
   {
@@ -27,7 +27,7 @@ export const mockChatList = [
     name: 'Marketing',
     lastSenderUsername: 'Elena',
     lastSenderMessage: 'Нужно одобрить текст рассылки',
-    lastSenderMessageTime: '13:10',
+    lastSenderMessageTime: '2024-05-15T13:10:00',
     newMessagesCount: 5,
   },
   {
@@ -35,14 +35,14 @@ export const mockChatList = [
     name: 'Support Tickets',
     lastSenderUsername: 'Bot',
     lastSenderMessage: 'Новое обращение #7821 от клиента',
-    lastSenderMessageTime: '11:30',
+    lastSenderMessageTime: '2024-05-15T11:30:00',
   },
   {
     avatarUrl: 'https://i.pravatar.cc/150?img=6',
     name: 'Project Phoenix',
     lastSenderUsername: 'Ivan',
     lastSenderMessage: 'Дедлайн сдвинули на 15 июня',
-    lastSenderMessageTime: 'Вчера',
+    lastSenderMessageTime: '2024-05-14T16:45:00', // вчера днём
     newMessagesCount: 2,
   },
   {
@@ -50,14 +50,14 @@ export const mockChatList = [
     name: 'HR Announcements',
     lastSenderUsername: 'HR Bot',
     lastSenderMessage: 'Завтра — день здоровья в офисе!',
-    lastSenderMessageTime: '10:05',
+    lastSenderMessageTime: '2024-05-15T10:05:00',
   },
   {
     avatarUrl: 'https://i.pravatar.cc/150?img=8',
     name: 'Frontend Guild',
     lastSenderUsername: 'Sofia',
     lastSenderMessage: 'Кто хочет ревью PR с новым хуком?',
-    lastSenderMessageTime: '09:15',
+    lastSenderMessageTime: '2024-05-15T09:15:00',
     newMessagesCount: 7,
   },
   {
@@ -65,21 +65,21 @@ export const mockChatList = [
     name: 'DevOps Alerts',
     lastSenderUsername: 'AlertBot',
     lastSenderMessage: 'CPU usage на prod сервере > 90%',
-    lastSenderMessageTime: '08:55',
+    lastSenderMessageTime: '2024-05-15T08:55:00',
   },
   {
     avatarUrl: 'https://i.pravatar.cc/150?img=10',
     name: 'Product Ideas',
     lastSenderUsername: 'Nikita',
     lastSenderMessage: 'Добавим тёмную тему в следующем спринте?',
-    lastSenderMessageTime: 'Вчера',
+    lastSenderMessageTime: '2024-05-14T12:20:00', // вчера
   },
   {
     avatarUrl: 'https://i.pravatar.cc/150?img=11',
     name: 'Client — Acme Corp',
     lastSenderUsername: 'Client',
     lastSenderMessage: 'Отличная работа! Готовы к следующему этапу',
-    lastSenderMessageTime: '16:40',
+    lastSenderMessageTime: '2024-05-15T16:40:00',
     newMessagesCount: 1,
   },
   {
@@ -87,14 +87,14 @@ export const mockChatList = [
     name: 'Random',
     lastSenderUsername: 'Pavel',
     lastSenderMessage: 'Кто идёт в кофейню в 15:00?',
-    lastSenderMessageTime: '14:55',
+    lastSenderMessageTime: '2024-05-15T14:55:00',
   },
   {
     avatarUrl: 'https://i.pravatar.cc/150?img=13',
     name: 'Security Team',
     lastSenderUsername: 'Anna',
     lastSenderMessage: 'Обязательно обновите 2FA до пятницы',
-    lastSenderMessageTime: '12:30',
+    lastSenderMessageTime: '2024-05-15T12:30:00',
     newMessagesCount: 4,
   },
   {
@@ -102,14 +102,14 @@ export const mockChatList = [
     name: 'QA Channel',
     lastSenderUsername: 'Oleg',
     lastSenderMessage: 'Нашёл баг в форме авторизации',
-    lastSenderMessageTime: '11:20',
+    lastSenderMessageTime: '2024-05-15T11:20:00',
   },
   {
     avatarUrl: 'https://i.pravatar.cc/150?img=15',
     name: 'Learning Club',
     lastSenderUsername: 'Maria',
     lastSenderMessage: 'Сегодня обсуждаем Zustand vs Redux',
-    lastSenderMessageTime: '10:10',
+    lastSenderMessageTime: '2024-05-15T10:10:00',
     newMessagesCount: 2,
   },
 ];

@@ -53,10 +53,9 @@ const items = [
 
 export function AppSidebar() {
   return (
-    <Sidebar collapsible="icon">
+    <Sidebar>
         <SidebarGroup>
             <SidebarGroupContent>
-                
                 <SidebarMenu>
                 {items.map((item) => (
                     <SidebarMenuItem key={item.title}>
