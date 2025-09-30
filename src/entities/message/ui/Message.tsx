@@ -29,17 +29,22 @@ export default function Message(props: MessageProps) {
 
       <div className={`flex flex-col w-full gap-3 ${props.isUserSended ? ' items-end' : 'items-start'}`}>
         <div
-          className={`px-3 py-2 rounded-lg max-w-xs ${
+          className={`px-3 py-2 rounded-lg max-w-xs flex flex-col ${
             props.isUserSended
               ? 'bg-blue-500 text-white'
               : 'bg-gray-200 text-gray-800'
+          }
+          ${
+            props.isUserSended ? 'items-end' : 'items-start'
           }`}
         >
             {showAvatar && (
             <span className="text-xs text-gray-500 mb-0.5">{props.sender}</span>
             )}
           <p className="text-sm">{props.content}</p>
-          <span className={`text-xs text-gray-500 mt-1 ${props.isUserSended ? 'self-end text-white' : 'self-start'}`}>
+          <span className={`text-xs mt-1 ${
+            props.isUserSended ? 'text-white' : 'text-gray-500'
+          }`}>
             {props.sendTime}
           </span>
         </div>

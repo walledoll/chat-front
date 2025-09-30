@@ -16,7 +16,7 @@ import { Phone, Moon, Settings, CircleUserRound, User, UsersRound,  Megaphone } 
 const items = [
   {
     title: "Profile",
-    url: "#",
+    url: "profile",
     icon: CircleUserRound,
   },
   {

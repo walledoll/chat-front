@@ -24,6 +24,15 @@ export const mockMessages = [
     isGroup: true
   },
   {
+    sender: "Мария",
+    content: "Ребята, не забудьте про встречу в 15:00!",
+    senderAvatarUrl: "https://i.pravatar.cc/150?img=2",
+    sendTime: "11:30",
+    isUserSended: false,
+    isGroup: true
+  },
+  
+  {
     sender: "Вы",
     content: "Обязательно приду!",
     senderAvatarUrl: "https://i.pravatar.cc/150?img=8",
@@ -232,6 +241,14 @@ export const mockMessages = [
     isGroup: true
   },
   {
+    sender: "Юлия",
+    content: "Спасибо за оперативную обратную связь!",
+    senderAvatarUrl: "https://i.pravatar.cc/150?img=17",
+    sendTime: "21:45",
+    isUserSended: false,
+    isGroup: false
+  },
+    {
     sender: "Юлия",
     content: "Спасибо за оперативную обратную связь!",
     senderAvatarUrl: "https://i.pravatar.cc/150?img=17",
