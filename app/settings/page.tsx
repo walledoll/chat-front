@@ -1,10 +1,10 @@
-import PostsList from '@/src/widgets/PostsList/ui/PostsList'
+import Settings from '@/src/widgets/Settings/ui/Settings'
 import React from 'react'
 
 export default function Page() {
   return (
     <div>
-      <PostsList/>
+        <Settings/>
     </div>
   )
 }
